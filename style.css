@@ -1,0 +1,85 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+header {
+  width: 10%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+header .yellow {
+  height: 15%;
+  background-color: yellow;
+  border: 10px solid black;
+  margin: 0;
+}
+header .white {
+  height: 15%;
+  background-color: white;
+  border: 10px solid black;
+  margin: 0;
+}
+header .blue {
+  height: 15%;
+  background-color: blue;
+  border: 10px solid black;
+  margin: 0;
+}
+aside {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+}
+aside .red {
+  width: 70%;
+  height: 15%;
+  background-color: red;
+  border: 5px solid black;
+}
+aside .blue {
+  width: 25%;
+  height: 15%;
+  background-color: blue;
+  border: 5px solid black;
+}
+main {
+  width: 70%;
+  height: 700px;
+}
+footer {
+  width: 15%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+footer .white {
+  width: 700px;
+  height: 25%;
+  background-color: white;
+  border: 10px solid black;
+}
+footer .redtop {
+  width: 15%;
+  height: 75%;
+  background-color: red;
+  border: 10px solid black;
+}
+footer .yellow {
+  width: 700px;
+  height: 25%;
+  background-color: yellow;
+  border: 10px solid black;
+}
+footer .redbot {
+  width: 700px;
+  height: 5%;
+  background-color: red;
+  border: 10px solid black;
+}
